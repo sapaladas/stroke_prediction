@@ -25,7 +25,7 @@
 
 ## *Project Overview*
 
-- Our aim in this project is to understand the reasons that cause stroke and see whether we can detect it
+- Our aim in this project is to understand the reasons that cause stroke and see if we can prevent it in time
 - In particular, we try to understand the relationship between different characteristics and stroke
 - We use inferential statistic methods to study how different characteristics influence the occurence of stroke
 - Finally, we try to see if we can successfully detect a possible stroke incident using machine learning
