@@ -110,6 +110,18 @@
 
 ## *Predictions*
 
+### Handle Class Imbalance
+
+- As we said before, our dataset was highly imbalanced
+- To address this, in order to avoid bias in our results, we use an oversampling technique called `SVMSMOTE`
+- This algorithm is a variant of the well-known `SMOTE` algorithm
+- In fact, it uses an `SVM` algorithm to detect samples to use for generating new synthetic samples
+- The figure below shows how our dataset is transformed after we apply `SVMSMOTE`
+
+![svm smote](./images/handle_class_imbalance.svg)
+
+### Results
+
 - For our predictions, we use 6 classifiers
 - We, also, use `GridSearchCV` with a 5-fold stratified cross validation to tune some of their hyperparameters
 - The results obtained from each of them can be found in the table below
