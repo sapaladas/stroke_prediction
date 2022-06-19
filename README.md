@@ -25,9 +25,9 @@
 
 ## *Project Overview*
 
-- Our aim in this project is to understand the reasons that cause stroke and see whether we can detect and prevent it
+- Our aim in this project is to understand the reasons that cause stroke and see whether we can detect it
 - In particular, we try to understand the relationship between different characteristics and stroke
-- We, also, use inferential statistic methods to study how different characteristics influence the occurence of stroke
+- We use inferential statistic methods to study how different characteristics influence the occurence of stroke
 - Finally, we try to see if we can successfully detect a possible stroke incident using machine learning
 
 ## *Data*
@@ -53,14 +53,14 @@
 ![demographics](./images/demographics.svg)
 
 - Stroke probability for those who have a marriage history is higher than for those who don't
-- A person who is married (or has been married in the past) is approximately 4 times more likely to experience stroke
+- A person who is married (or has been in the past) is approximately 4 times more likely to experience stroke
 
 ### Work Type & Smoking Status
 
 ![work type and smoking status](./images/work_type_smoking_status_stroke.svg)
 
 - According to the graphs, the work type does not seem to affect the occurence of a stroke
-- Also, surprisingly, contrary to what we would expect, smoking status does not seem to be associated with stroke
+- Also, contrary to what we would expect, smoking status does not seem to be associated with stroke
 
 ### Hypertension & Heart Disease
 
@@ -75,8 +75,8 @@
 ![age, glucose level and bmi](./images/age_glucose_level_bmi_stroke.svg)
 ![scatter plots](./images/scatter_plots.svg)
 
-- According to both graphs, it is obvious that older people experience stroke much more often than younger ones
-- On the other hand, the glucose level and the body mass index do not seem to be strong indicators of a possible stroke
+- According to the graphs, it is obvious that older people experience stroke much more often than younger ones
+- On the other hand, the glucose level and the BMI do not seem to be strong indicators of a possible stroke
 
 ## *Statistical Analysis*
 
@@ -89,7 +89,7 @@
 ![pairwise feature correlation](./images/pairwise_feature_correlation.svg)
 
 - We observe that there is no pair of strongly linearly correlated features
-- The feature with which stroke seems to be mostly associated is age, which is something we also observed earlier
+- The feature with which stroke seems to be mostly associated is age, which we observed earlier
 - In addition, age and body mass index appear to have a moderate linear correlation
 - This, in fact, makes sense given thah people tend to exercise less as they grow older
 
