@@ -125,4 +125,4 @@
 
 ## *Conclusion*
 
-In order to choose the model that meets our needs, we need to ask ourselves "*why should I predict this?*". I suppose, in this case, the answer is that we would like to offer some kind of medical advice and/or preventative treatment to those who we predict are more likely to have a stroke. In other words, we want a model that can predict as many *true positives* and as few *false negatives* as possible. Therefore, we should look for a model with *high recall*. That being said, the model which yields the highest recall is ***Logistic Regression*** with a value of 60%.
+In order to choose the model that meets our needs, we need to ask ourselves "*why should I predict this?*". In this case, the answer is that we would like to offer some kind of medical advice and/or preventative treatment to those who we predict are more likely to have a stroke. In other words, we want a model that can predict as many *true positives* and as few *false negatives* as possible. Therefore, we should look for a model with *high recall*. That being said, the model which yields the highest recall is ***Logistic Regression***, achieving a value of 60%.
